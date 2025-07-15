@@ -24,10 +24,23 @@
 
     /*FONTES*/
     --font-title: "Asap", sans-serif;
-    --font-subttile: "Inconsolata", monospace;
+    --font-subtitle: "Inconsolata", monospace;
     --font-text: "Maven Pro", sans-serif;
 }
 
 body {
+    background-color: var(--gray-500);
     color: var(--gray-100);
 }
+
+.stack-tag {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   background-color: var(--gray-400);
+   border-radius: 999px;
+   color: var(--gray-200);
+   padding: 8px 16px;
+}
+

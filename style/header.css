@@ -2,4 +2,46 @@
     background-image: url(../assets/Background_Intro.png);
     background-size: 100vw ;
     height: 750px;
+
+    .profile-box {
+        margin: auto;
+        width: 780px;
+    }
+    
+    .border {
+        width: 112px;
+        height: 112px;
+        border: 3px solid var(--red) ;
+        border-radius: 56px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        &>div {
+            position: absolute;
+            top: 75px;
+            left: 75px;
+        }
+
+        
+    }
+
+    .profile-pic {
+        width: 96px;
+        aspect-ratio: 1/1;
+        
+    }
+
+    .content-box {
+        width: 1040px;
+        height: 447px;
+        text-align: center;
+        justify-self: center;
+        padding-top: 151px;
+    }
+
+    .arrow {
+        padding-block: 6px 92px;
+    }
 }
