@@ -27,3 +27,7 @@
     --font-subttile: "Inconsolata", monospace;
     --font-text: "Maven Pro", sans-serif;
 }
+
+body {
+    color: var(--gray-100);
+}
