@@ -42,5 +42,15 @@ body {
    border-radius: 999px;
    color: var(--gray-200);
    padding: 8px 16px;
+
+   &:hover {
+    background-color: var(--gray-300);
+    color: var(--gray-400);
+    font-weight: 430;
+    transition-duration: 1s;
+    cursor: default;
+    height: 40px;
+    
+   }
 }
 
