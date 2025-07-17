@@ -19,8 +19,9 @@
             border-radius: 12px;
 
             &:hover {
-                box-shadow: 0px 0px 5px white;
-                transition-duration: 1s;
+                box-shadow: 0px 0px 10px white;
+                transition-duration: 0.2s;
+                cursor: pointer;
                 
             }
         }

@@ -48,7 +48,7 @@ body {
     background-color: var(--gray-300);
     color: var(--gray-400);
     font-weight: 430;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     cursor: default;
     height: 40px;
     
