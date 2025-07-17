@@ -1,12 +1,12 @@
 #projects {
     margin: auto;
-    
+    padding-block: 72px;
+
     & #title-projects {
         text-align: center;
     }
 
     & #pages {
-        width: 1040px;
         height: 584px;
         margin: auto;
     }
@@ -45,4 +45,22 @@
             gap: 10px;
         }
     
+}
+
+#services {
+    background-color: var(--gray-600);
+    height: 480px;
+    padding-block: 88px 120px;
+    
+    & #title-projects {
+        text-align: center;
+    }
+    
+    .box-skills {
+        width: 280px;
+        height: 155px;
+        border: 3px solid var(--gray-500);
+        border-radius: 20px;
+        padding: 20px;
+    }
 }
