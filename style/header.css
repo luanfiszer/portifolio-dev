@@ -1,6 +1,7 @@
 #hero {
     background-image: url(../assets/Background_Intro.png);
     background-size: 100vw ;
+    background-position: initial;
     height: 750px;
 
     .profile-box {
