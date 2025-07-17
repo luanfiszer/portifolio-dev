@@ -1,0 +1,37 @@
+#contacts {
+    background-image: url(../assets/Background_Contacts.png);
+    background-size: 100vw ;
+    background-position: initial;
+    height: 787px;
+    padding: 128px 120px 200px 120px ;
+    
+    & #title-contacts  {
+        text-align: center;
+    }
+
+    .link-contacts {
+        width: 400px;
+        height: 68px;
+        background-color: var(--gray-400);
+        border-radius: 8px;
+        padding: 20px;
+        margin-inline: auto;
+
+        &:hover {
+            box-shadow: 0px 0px 5px var(--gray-200);
+            transition-duration: 0.1s;
+            cursor: pointer;
+        }
+
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        align-items: center;
+
+        .arrow {
+            justify-self: end;
+        }
+
+    }
+
+
+}
